@@ -3,7 +3,11 @@
 
 | [Ctrl+f] | Форматирование файла
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+# Сочетания клавиш
+
+| Сочитание | Назначение | Команда |
+| :---:     |     :---   | :---    |
+| Ctrl+f | Форматирование файла | <Esc><Cmd>Format<CR> |
+| Ctrl+c | Копировать выделенный фрагмент | "+y |
+|  |  |  |
+
