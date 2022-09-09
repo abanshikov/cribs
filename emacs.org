@@ -1,3 +1,6 @@
+#+TITLE Шпаргалка для сочетаний клавиш и команд emacs
+#+STARTUP: overview
+
 * Назначаемые клавиши
 | C-       | Ctrl  |
 | M-       | Altl  |
@@ -77,25 +80,24 @@
 | gc (<LEADER> gc) | avy-goto-char       | Перейти к символу на экране     |
 
 * Проекты
-| Сочетание клавиш | Команда                   | Описание                                                |
-|------------------+---------------------------+---------------------------------------------------------|
-| C-c p            | projectile-command-map    | Показать команды управления проектами                   |
-| SPC fp           | projectile-switch-project | Выбрать созданные проекты [C-c p p]                     |
-|                  | projectile-run-project    | Запустить проект [C-c p u]                              |
-| SPC ld           | lsp-ui-doc-toggle         | Показать/скрыть doc-string для класса/функции           |
-|                  | flycheck-list-error       | Показать все ошибки [C-c ! l]                           |
-| <LEADER> va      | pyvenv-activate           | Активировать виртуальное окружение                      |
-| <LEADER> vd      | pyvenv-deactivate         | Деактивировать виртуальное окружение                    |
-| C-c C-p          | run-python                | Запустить консоль python                                |
-| C-c C-r          | python-shell-send-region  | Выполнить выделенный код (сначала [C-c C-p])            |
-| C-c C-c          | python-shell-send-buffer  | Выполнить код из текущего буфера (сначала [C-c C-p])    |
-| C-c C-l          | python-shell-send-file    | Выполнить код из файла в консоли (сначала [C-c C-p])    |
-| C-M-x            | python-shell-send-defun   | Выполнить текущую функцию в консоли (сначала [C-c C-p]) |
-| [f2]             | lsp-rename                | Переименование                                          |
-| [f5]             | projectile-run-project    | Запуск проекта                                          |
-| C-S-l            | lsp-format-buffer         | Форматировать буфер, согласно установленного линтера    |
-| <LEADER> ld      | lsp-ui-doc-toggle         | Показать докстринг                                      |
-| <LEADER> le      | flycheck-list-errors      | Показать все ошибки                                     |
+| Сочетание клавиш | Команда                  | Описание                                                |
+|------------------+--------------------------+---------------------------------------------------------|
+| C-c p            | projectile-command-map   | Показать команды управления проектами                   |
+|                  | projectile-run-project   | Запустить проект [C-c p u]                              |
+|                  | flycheck-list-error      | Показать все ошибки [C-c ! l]                           |
+| <LEADER> va      | pyvenv-activate          | Активировать виртуальное окружение                      |
+| <LEADER> vd      | pyvenv-deactivate        | Деактивировать виртуальное окружение                    |
+| C-c C-p          | run-python               | Запустить консоль python                                |
+| C-c C-r          | python-shell-send-region | Выполнить выделенный код (сначала [C-c C-p])            |
+| C-c C-c          | python-shell-send-buffer | Выполнить код из текущего буфера (сначала [C-c C-p])    |
+| C-c C-l          | python-shell-send-file   | Выполнить код из файла в консоли (сначала [C-c C-p])    |
+| C-M-x            | python-shell-send-defun  | Выполнить текущую функцию в консоли (сначала [C-c C-p]) |
+| [f2]             | lsp-rename               | Переименование                                          |
+| [f5]             | projectile-run-project   | Запуск проекта                                          |
+| C-S-l            | lsp-format-buffer        | Форматировать буфер, согласно установленного линтера    |
+| <LEADER> ld      | lsp-ui-doc-toggle        | Показать докстринг                                      |
+| <LEADER> ld      | lsp-ui-doc-glance        | Показать докстринг                                      |
+| <LEADER> le      | flycheck-list-errors     | Показать все ошибки                                     |
 
 * Терминал
 | Сочетание клавиш | Команда     | Описание                                        |
