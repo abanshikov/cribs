@@ -75,7 +75,6 @@
 | =<LEADER> fp=           | projectile-switch-project | Поиск проекта                                    |
 | =C-d f=                 | dired                     | Обзор файлов                                     |
 | =C-x C-j=               | dired-jump                | Открыть каталог в котором находится текущий файл |
-|                         |                           |                                                  |
 
 ** Dired
 *** Управление
